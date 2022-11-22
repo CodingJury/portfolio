@@ -23,7 +23,7 @@ import about02 from '../assets/about02.png';
 import about03 from '../assets/about03.png';
 import about04 from '../assets/about04.png';
 
-import profile from '../assets/profile.png';
+import profile from '../assets/profile.jpg';
 import circle from '../assets/circle.svg';
 import logo from '../assets/logo.png';
 
@@ -35,7 +35,9 @@ import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 
-export default {
+
+
+const allImages = {
   email,
   mobile,
   api,
@@ -70,3 +72,5 @@ export default {
   skype,
   spotify,
 };
+
+export default allImages;

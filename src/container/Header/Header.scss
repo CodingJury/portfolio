@@ -161,7 +161,7 @@
         }
     }
     
-    @media screen and (max-width: 650px) {
+    @media screen and (max-width: 685px) {
         div:nth-child(1) {
             width: 100px;
             height: 100px;
@@ -200,6 +200,7 @@
     .profile-img {
         border-radius: 10000px;
         border: 10px solid white;
+        background-color: rgb(167, 167, 167);
     }
 
     .overlay_circle {
